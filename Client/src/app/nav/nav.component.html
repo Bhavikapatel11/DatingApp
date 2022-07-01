@@ -19,6 +19,10 @@
                   </li>
                 </ng-container>
 
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="/error" routerLinkActive="active">Error</a>
+                </li>
+
               </ul>
 
               <div class="dropdown" *ngIf="(accountService.currentUser$ | async) as user" dropdown>
