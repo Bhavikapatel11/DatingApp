@@ -19,8 +19,7 @@ export class DateInputComponent implements ControlValueAccessor {
       dateInputFormat: 'DD MMMM YYYY'
     }
   }
-
-
+  
   writeValue(obj: any): void {
   }
 
